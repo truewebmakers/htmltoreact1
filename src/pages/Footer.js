@@ -53,17 +53,17 @@ export default function Footer() {
         <h4>Useful Links</h4>
         <ul>
           <li>
-            <i className="bi bi-chevron-right" /> <a href="#">Home</a>
+            <i className="bi bi-chevron-right" /> <a href="javascript:void(0);">Home</a>
           </li>
           <li>
-            <i className="bi bi-chevron-right" /> <a href="#">About us</a>
+            <i className="bi bi-chevron-right" /> <a href="javascript:void(0);">About us</a>
           </li>
           <li>
-            <i className="bi bi-chevron-right" /> <a href="#">Services</a>
+            <i className="bi bi-chevron-right" /> <a href="javascript:void(0);">Services</a>
           </li>
           <li>
             <i className="bi bi-chevron-right" />{" "}
-            <a href="#">Terms of service</a>
+            <a href="javascript:void(0);">Terms of service</a>
           </li>
         </ul>
       </div>
@@ -71,18 +71,18 @@ export default function Footer() {
         <h4>Our Services</h4>
         <ul>
           <li>
-            <i className="bi bi-chevron-right" /> <a href="#">Web Design</a>
+            <i className="bi bi-chevron-right" /> <a href="javascript:void(0);">Web Design</a>
           </li>
           <li>
             <i className="bi bi-chevron-right" />{" "}
-            <a href="#">Web Development</a>
+            <a href="javascript:void(0);">Web Development</a>
           </li>
           <li>
             <i className="bi bi-chevron-right" />{" "}
-            <a href="#">Product Management</a>
+            <a href="javascript:void(0);">Product Management</a>
           </li>
           <li>
-            <i className="bi bi-chevron-right" /> <a href="#">Marketing</a>
+            <i className="bi bi-chevron-right" /> <a href="javascript:void(0);">Marketing</a>
           </li>
         </ul>
       </div>
@@ -93,16 +93,16 @@ export default function Footer() {
           valies
         </p>
         <div className="social-links d-flex">
-          <a href="javascript:;">
+          <a href="javascript:void(0);">
             <i className="bi bi-twitter-x" />
           </a>
-          <a href="javascript:;">
+          <a href="javascript:void(0);">
             <i className="bi bi-facebook" />
           </a>
-          <a href="javascript:;">
+          <a href="javascript:void(0);">
             <i className="bi bi-instagram" />
           </a>
-          <a href="javascript:;">
+          <a href="javascript:void(0);">
             <i className="bi bi-linkedin" />
           </a>
         </div>
@@ -118,7 +118,7 @@ export default function Footer() {
       Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
     </div>
   </div>
-  <a href="javascript:;" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
+  <a href="javascript:void(0);" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
 
 </footer>
 

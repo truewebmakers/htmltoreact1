@@ -9,7 +9,7 @@ export default function Header() {
       >
         <div className="container-fluid container-xl position-relative d-flex align-items-center">
           <a
-            href="index.html"
+            href="#hero"
             className="logo d-flex align-items-center me-auto"
           >
             {/* Uncomment the line below if you also wish to use an image logo */}
@@ -39,45 +39,45 @@ export default function Header() {
                 <a href="#pricing">Pricing</a>
               </li>
               <li className="dropdown">
-                <a href="#">
+                <a href="javascript:void(0);">
                   <span>Dropdown</span>{" "}
                   <i className="bi bi-chevron-down toggle-dropdown" />
                 </a>
                 <ul>
                   <li>
-                    <a href="#">Dropdown 1</a>
+                    <a href="javascript:void(0);">Dropdown 1</a>
                   </li>
                   <li className="dropdown">
-                    <a href="#">
+                    <a href="javascript:void(0);">
                       <span>Deep Dropdown</span>{" "}
                       <i className="bi bi-chevron-down toggle-dropdown" />
                     </a>
                     <ul>
                       <li>
-                        <a href="#">Deep Dropdown 1</a>
+                        <a href="javascript:void(0);">Deep Dropdown 1</a>
                       </li>
                       <li>
-                        <a href="#">Deep Dropdown 2</a>
+                        <a href="javascript:void(0);">Deep Dropdown 2</a>
                       </li>
                       <li>
-                        <a href="#">Deep Dropdown 3</a>
+                        <a href="javascript:void(0);">Deep Dropdown 3</a>
                       </li>
                       <li>
-                        <a href="#">Deep Dropdown 4</a>
+                        <a href="javascript:void(0);">Deep Dropdown 4</a>
                       </li>
                       <li>
-                        <a href="#">Deep Dropdown 5</a>
+                        <a href="javascript:void(0);">Deep Dropdown 5</a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="#">Dropdown 2</a>
+                    <a href="javascript:void(0);">Dropdown 2</a>
                   </li>
                   <li>
-                    <a href="#">Dropdown 3</a>
+                    <a href="javascript:void(0);">Dropdown 3</a>
                   </li>
                   <li>
-                    <a href="#">Dropdown 4</a>
+                    <a href="javascript:void(0);">Dropdown 4</a>
                   </li>
                 </ul>
               </li>

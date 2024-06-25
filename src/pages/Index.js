@@ -155,7 +155,7 @@ export default function Index() {
             proident, sunt in culpa qui officia deserunt mollit anim id est
             laborum.{" "}
           </p>
-          <a href="#" className="read-more">
+          <a href="javascript:void(0);" className="read-more">
             <span>Read More</span>
             <i className="bi bi-arrow-right" />
           </a>
@@ -449,7 +449,7 @@ export default function Index() {
           </p>
         </div>
         <div className="col-xl-3 cta-btn-container text-center">
-          <a className="cta-btn align-middle" href="#">
+          <a className="cta-btn align-middle" href="javascript:void(0);">
             Call To Action
           </a>
         </div>
@@ -932,7 +932,7 @@ export default function Index() {
                 <span>Massa ultricies mi quis hendrerit</span>
               </li>
             </ul>
-            <a href="#" className="buy-btn">
+            <a href="javascript:void(0);" className="buy-btn">
               Buy Now
             </a>
           </div>
@@ -966,7 +966,7 @@ export default function Index() {
                 <span>Massa ultricies mi quis hendrerit</span>
               </li>
             </ul>
-            <a href="#" className="buy-btn">
+            <a href="javascript:void(0);" className="buy-btn">
               Buy Now
             </a>
           </div>
@@ -1000,7 +1000,7 @@ export default function Index() {
                 <span>Massa ultricies mi quis hendrerit</span>
               </li>
             </ul>
-            <a href="#" className="buy-btn">
+            <a href="javascript:void(0);" className="buy-btn">
               Buy Now
             </a>
           </div>
