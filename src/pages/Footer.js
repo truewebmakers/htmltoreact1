@@ -93,16 +93,16 @@ export default function Footer() {
           valies
         </p>
         <div className="social-links d-flex">
-          <a href="">
+          <a href="javascript:;">
             <i className="bi bi-twitter-x" />
           </a>
-          <a href="">
+          <a href="javascript:;">
             <i className="bi bi-facebook" />
           </a>
-          <a href="">
+          <a href="javascript:;">
             <i className="bi bi-instagram" />
           </a>
-          <a href="">
+          <a href="javascript:;">
             <i className="bi bi-linkedin" />
           </a>
         </div>
@@ -118,7 +118,7 @@ export default function Footer() {
       Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
     </div>
   </div>
-  <a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
+  <a href="javascript:;" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
 
 </footer>
 
