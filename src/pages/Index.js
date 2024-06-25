@@ -1,6 +1,50 @@
-import React from "react";
+import React , { useEffect, useRef } from "react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
 export default function Index() {
+  const swiperRef = useRef(null);
+  useEffect(() => {
+    if (swiperRef.current) {
+      new Swiper(swiperRef.current, {
+        loop: true,
+        speed: 600,
+        autoplay: {
+          delay: 5000,
+        },
+        slidesPerView: 'auto',
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true,
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          480: {
+            slidesPerView: 3,
+            spaceBetween: 60,
+          },
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 80,
+          },
+          992: {
+            slidesPerView: 5,
+            spaceBetween: 120,
+          },
+          1200: {
+            slidesPerView: 6,
+            spaceBetween: 120,
+          },
+        },
+      });
+    }
+  }, []);
+
+
   return (
     <>
    <main className="main">
@@ -46,69 +90,52 @@ export default function Index() {
   {/* /Hero Section */}
   {/* Clients Section */}
   <section id="clients" className="clients section">
-    <div className="container" data-aos="zoom-in">
-      <div className="swiper init-swiper">
-        <div className="swiper-wrapper align-items-center">
-          <div className="swiper-slide">
-            <img
-              src="assets/img/clients/client-1.png"
-              className="img-fluid"
-              alt=""
-            />
-          </div>
-          <div className="swiper-slide">
-            <img
-              src="assets/img/clients/client-2.png"
-              className="img-fluid"
-              alt=""
-            />
-          </div>
-          <div className="swiper-slide">
-            <img
-              src="assets/img/clients/client-3.png"
-              className="img-fluid"
-              alt=""
-            />
-          </div>
-          <div className="swiper-slide">
-            <img
-              src="assets/img/clients/client-4.png"
-              className="img-fluid"
-              alt=""
-            />
-          </div>
-          <div className="swiper-slide">
-            <img
-              src="assets/img/clients/client-5.png"
-              className="img-fluid"
-              alt=""
-            />
-          </div>
-          <div className="swiper-slide">
-            <img
-              src="assets/img/clients/client-6.png"
-              className="img-fluid"
-              alt=""
-            />
-          </div>
-          <div className="swiper-slide">
-            <img
-              src="assets/img/clients/client-7.png"
-              className="img-fluid"
-              alt=""
-            />
-          </div>
-          <div className="swiper-slide">
-            <img
-              src="assets/img/clients/client-8.png"
-              className="img-fluid"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-    </div>
+
+  <Swiper
+      spaceBetween={50}
+      slidesPerView={6}
+      loop={true}
+      speed={1000}
+      autoplay={{ delay: 500 }}
+      pagination={{ clickable: true }}
+      onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)}
+      breakpoints={{
+        320: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        480: {
+          slidesPerView: 3,
+          spaceBetween: 60,
+        },
+        640: {
+          slidesPerView: 4,
+          spaceBetween: 80,
+        },
+        992: {
+          slidesPerView: 5,
+          spaceBetween: 120,
+        },
+        1200: {
+          slidesPerView: 6,
+          spaceBetween: 120,
+        },
+      }}
+    >
+      <SwiperSlide> <img src="assets/img/clients/client-1.png"  className="img-fluid"  alt="" /></SwiperSlide>
+      <SwiperSlide> <img src="assets/img/clients/client-2.png"  className="img-fluid"  alt="" /></SwiperSlide>
+      <SwiperSlide> <img src="assets/img/clients/client-3.png"  className="img-fluid"  alt="" /></SwiperSlide>
+      <SwiperSlide> <img src="assets/img/clients/client-4.png"  className="img-fluid"  alt="" /></SwiperSlide>
+      <SwiperSlide> <img src="assets/img/clients/client-5.png"  className="img-fluid"  alt="" /></SwiperSlide>
+      <SwiperSlide> <img src="assets/img/clients/client-6.png"  className="img-fluid"  alt="" /></SwiperSlide>
+      <SwiperSlide> <img src="assets/img/clients/client-7.png"  className="img-fluid"  alt="" /></SwiperSlide>
+      <SwiperSlide> <img src="assets/img/clients/client-8.png"  className="img-fluid"  alt="" /></SwiperSlide>
+        
+    </Swiper>
   </section>
+
+ 
   {/* /Clients Section */}
   {/* About Section */}
   <section id="about" className="about section">
@@ -155,7 +182,7 @@ export default function Index() {
             proident, sunt in culpa qui officia deserunt mollit anim id est
             laborum.{" "}
           </p>
-          <a href="javascript:void(0);" className="read-more">
+          <a href="#!" className="read-more">
             <span>Read More</span>
             <i className="bi bi-arrow-right" />
           </a>
@@ -449,7 +476,7 @@ export default function Index() {
           </p>
         </div>
         <div className="col-xl-3 cta-btn-container text-center">
-          <a className="cta-btn align-middle" href="javascript:void(0);">
+          <a className="cta-btn align-middle" href="#!">
             Call To Action
           </a>
         </div>
@@ -932,7 +959,7 @@ export default function Index() {
                 <span>Massa ultricies mi quis hendrerit</span>
               </li>
             </ul>
-            <a href="javascript:void(0);" className="buy-btn">
+            <a href="#!" className="buy-btn">
               Buy Now
             </a>
           </div>
@@ -966,7 +993,7 @@ export default function Index() {
                 <span>Massa ultricies mi quis hendrerit</span>
               </li>
             </ul>
-            <a href="javascript:void(0);" className="buy-btn">
+            <a href="#!" className="buy-btn">
               Buy Now
             </a>
           </div>
@@ -1000,7 +1027,7 @@ export default function Index() {
                 <span>Massa ultricies mi quis hendrerit</span>
               </li>
             </ul>
-            <a href="javascript:void(0);" className="buy-btn">
+            <a href="#!" className="buy-btn">
               Buy Now
             </a>
           </div>

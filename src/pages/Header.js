@@ -38,54 +38,55 @@ export default function Header() {
               <li>
                 <a href="#pricing">Pricing</a>
               </li>
-              <li className="dropdown">
-                <a href="javascript:void(0);">
+              {/* <li className="dropdown">
+                <a href="#!">
                   <span>Dropdown</span>{" "}
                   <i className="bi bi-chevron-down toggle-dropdown" />
                 </a>
                 <ul>
                   <li>
-                    <a href="javascript:void(0);">Dropdown 1</a>
+                    <a href="#!">Dropdown 1</a>
                   </li>
                   <li className="dropdown">
-                    <a href="javascript:void(0);">
+                    <a href="#!">
                       <span>Deep Dropdown</span>{" "}
                       <i className="bi bi-chevron-down toggle-dropdown" />
                     </a>
                     <ul>
                       <li>
-                        <a href="javascript:void(0);">Deep Dropdown 1</a>
+                        <a href="#!">Deep Dropdown 1</a>
                       </li>
                       <li>
-                        <a href="javascript:void(0);">Deep Dropdown 2</a>
+                        <a href="#!">Deep Dropdown 2</a>
                       </li>
                       <li>
-                        <a href="javascript:void(0);">Deep Dropdown 3</a>
+                        <a href="#!">Deep Dropdown 3</a>
                       </li>
                       <li>
-                        <a href="javascript:void(0);">Deep Dropdown 4</a>
+                        <a href="#!">Deep Dropdown 4</a>
                       </li>
                       <li>
-                        <a href="javascript:void(0);">Deep Dropdown 5</a>
+                        <a href="#!">Deep Dropdown 5</a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="javascript:void(0);">Dropdown 2</a>
+                    <a href="#!">Dropdown 2</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0);">Dropdown 3</a>
+                    <a href="#!">Dropdown 3</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0);">Dropdown 4</a>
+                    <a href="#!">Dropdown 4</a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li>
                 <a href="#contact">Contact</a>
               </li>
             </ul>
-            <i className="mobile-nav-toggle d-xl-none bi bi-list" />
+            <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
+
           </nav>
           <a className="btn-getstarted" href="#about">
             Get Started
